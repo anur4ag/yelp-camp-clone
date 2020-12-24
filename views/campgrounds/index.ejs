@@ -1,0 +1,46 @@
+<% layout('layouts/boilerplate') %>
+<div id="cluster-map" class="container-fluid mt-0"></div>
+<div class="d-flex py-3 justify-content-center align-items-center">
+  <h1>All Campgrounds</h1>
+</div>
+
+<% for (let campground of campgrounds) { %>
+<div class="card mb-3">
+  <div class="row">
+    <div class="col-md-4">
+      <% if(campground.images.length) {%>
+      <img class="img-fluid" src="<%= campground.images[0].url %> " alt="" />
+      <% } else { %>
+      <img
+        src="https://images.unsplash.com/photo-1532876924456-d6460f2f56a7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzR8fGNhbXBncm91bmR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        class="img-fluid"
+        alt=""
+      />
+      <% } %>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><%= campground.title %></h5>
+        <p class="card-text"><%= campground.description %></p>
+        <small class="text-muted"><%= campground.location %></small>
+      </div>
+      <a href="/campgrounds/<%= campground._id%> "
+        ><button class="btn btn-primary btn-sm py-auto mb-2">
+          View <%= campground.title %>
+        </button></a
+      >
+    </div>
+  </div>
+</div>
+<% } %>
+<div>
+  <a href="/campgrounds/new"
+    ><button class="btn btn-success">Add new Campground</button></a
+  >
+</div>
+<script>
+  const mapboxToken = "<%-process.env.MAPBOX_TOKEN%>";
+  const campgrounds = {features : <%-JSON.stringify(campgrounds)%>}
+</script>
+
+<script src="/javascripts/clusterMap.js"></script>
