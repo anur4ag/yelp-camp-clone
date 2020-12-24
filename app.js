@@ -72,6 +72,7 @@ const styleSrcUrls = [
   "https://fonts.googleapis.com",
   "https://use.fontawesome.com",
   "https://cdn.jsdelivr.net",
+  "https://fonts.googleapis.com",
 ];
 const connectSrcUrls = [
   "https://api.mapbox.com",

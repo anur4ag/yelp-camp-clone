@@ -6,7 +6,9 @@ body {
   background-position: center;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  font-family: "Lato", sans-serif;
 }
+
 .cover-container {
   max-width: 60vw;
 }
@@ -36,4 +38,19 @@ body {
 .btn-secondary:hover {
   text-shadow: none;
   color: #333;
+}
+#btn-home {
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  #text-content {
+    display: none;
+  }
+  #btn-home {
+    padding: auto;
+    background-color: #e5e5e5;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
 }
