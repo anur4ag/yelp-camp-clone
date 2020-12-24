@@ -159,7 +159,8 @@ app.use((err, req, res, next) => {
   if (!err.message) err.message = "OH NO SOMETHING WENT WRONG !!";
   res.status(status).render("error", { err });
 });
+const port = process.env.PORT || 8080;
 
-app.listen(8080, () => {
-  console.log("SERVING ON PORT 8080 !");
+app.listen(port, () => {
+  console.log(`SERVING ON PORT ${port}`);
 });
