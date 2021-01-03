@@ -1,4 +1,4 @@
-# Yelp Camp
+# Yelp Camp 2020
 This is a clone of Yelp Camp made using Node.js .
 
 ## Demo 
@@ -7,7 +7,7 @@ This is a clone of Yelp Camp made using Node.js .
 ![BeFunky-collage](https://user-images.githubusercontent.com/71564387/103482330-420f4780-4e06-11eb-9dd8-996e40e88814.jpg)
 
 
-## Application Feature
+## Key Feature
 
 * Authentication
   
@@ -21,7 +21,7 @@ This is a clone of Yelp Camp made using Node.js .
   
 * Basic Functionality
 
-  * Add Tiele, Image, Location, Price and Description to the campground.
+  * Add Title, Image, Location, Price and Description to the campground.
 
   * Baisc CRUD (Create, Show, Update and Delete campgrounds.)
 
@@ -30,3 +30,37 @@ This is a clone of Yelp Camp made using Node.js .
   * Flash Important messages to warn the users.
 
   * Responsive Web design.
+
+## Technologies Used 
+
+### Front end
+
+* [Bootstrap 5.0](https://getbootstrap.com)
+
+* [ejs(Embedded JavaScript)](https://ejs.co/)
+
+### Back End
+
+* [Node. js](https://nodejs.org)
+
+* [Express. js](https://expressjs.com)
+
+* [MongoDB](https://www.mongodb.com/)
+
+* [mongoose](http://mongoosejs.com/)
+
+* [passport](http://www.passportjs.org/)
+
+* [passport-local](https://github.com/jaredhanson/passport-local#passport-local)
+
+* [express-session](https://github.com/expressjs/session#express-session)
+
+* [method-override](https://github.com/expressjs/method-override#method-override)
+
+* [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
+
+* [dotenv](https://www.npmjs.com/package/dotenv)
+
+* [body-parser](https://www.npmjs.com/package/body-parser)
+
+* [connect-mongo](https://www.npmjs.com/package/connect-mongo)
