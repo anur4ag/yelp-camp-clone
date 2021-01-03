@@ -2,7 +2,7 @@
 This is a clone of Yelp Camp made using Node.js .
 
 ## Demo 
-> See this web app in action at  https://yelp-camp-clone-byanur4ag.herokuapp.com/
+> Check it out by clicking this link  [Yelp Camp 2020](https://yelp-camp-clone-byanur4ag.herokuapp.com/)
 
 ![BeFunky-collage](https://user-images.githubusercontent.com/71564387/103482330-420f4780-4e06-11eb-9dd8-996e40e88814.jpg)
 
