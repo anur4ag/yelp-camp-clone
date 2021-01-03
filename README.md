@@ -30,6 +30,8 @@ This is a clone of Yelp Camp made using Node.js .
   * Flash Important messages to warn the users.
 
   * Responsive Web design.
+  
+* Cluster map and location specific map
 
 ## Technologies Used 
 
@@ -38,6 +40,7 @@ This is a clone of Yelp Camp made using Node.js .
 * [Bootstrap 5.0](https://getbootstrap.com)
 
 * [ejs(Embedded JavaScript)](https://ejs.co/)
+* [Mapbox API](https://www.mapbox.com/)
 
 ### Back End
 
@@ -64,3 +67,8 @@ This is a clone of Yelp Camp made using Node.js .
 * [body-parser](https://www.npmjs.com/package/body-parser)
 
 * [connect-mongo](https://www.npmjs.com/package/connect-mongo)
+
+### Platforms 
+  * [Cloudinary](https://www.google.com/aclk?sa=L&ai=DChcSEwjJoJuxmIDuAhUXMSsKHTZ3AlsYABABGgJzZg&ae=2&sig=AOD64_21YYdbRw1xRu-FBLf00SrLbHRsFA&q&adurl&ved=2ahUKEwjM5pKxmIDuAhXCpOkKHSciCeEQ0Qx6BAgdEAE)
+  * [Mapbox](https://www.mapbox.com/)
+  * [Heroku](https://www.heroku.com/)
