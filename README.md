@@ -62,6 +62,8 @@ This is a clone of Yelp Camp made using Node.js .
 
 * [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
 
+* [Helmet](https://github.com/helmetjs/helmet)
+
 * [dotenv](https://www.npmjs.com/package/dotenv)
 
 * [body-parser](https://www.npmjs.com/package/body-parser)
