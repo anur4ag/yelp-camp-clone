@@ -1,4 +1,4 @@
-# yelp-camp-clone
+# Yelp Camp
 This is a clone of Yelp Camp made using Node.js .
 
 ## Demo 
