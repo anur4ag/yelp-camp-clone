@@ -7,7 +7,7 @@ This is a clone of Yelp Camp made using Node.js .
 ![BeFunky-collage](https://user-images.githubusercontent.com/71564387/103482330-420f4780-4e06-11eb-9dd8-996e40e88814.jpg)
 
 
-## Key Feature
+## Key Features
 
 * Authentication
   
