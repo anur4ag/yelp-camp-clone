@@ -4,7 +4,8 @@ This is a clone of Yelp Camp made using Node.js .
 ## Demo 
 > Check it out by clicking this link  [Yelp Camp 2020](https://yelp-camp-clone-byanur4ag.herokuapp.com/)
 
-![BeFunky-collage](https://user-images.githubusercontent.com/71564387/103482330-420f4780-4e06-11eb-9dd8-996e40e88814.jpg)
+![yelp-camp-clone-collage](https://user-images.githubusercontent.com/71564387/103561571-bbc73400-4edf-11eb-9ab4-4dc899fc302c.jpg)
+
 
 
 ## Key Features
