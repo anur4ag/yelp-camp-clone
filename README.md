@@ -24,7 +24,7 @@ This is a clone of Yelp Camp made using Node.js .
 
   * Add Title, Image, Location, Price and Description to the campground.
 
-  * Baisc CRUD (Create, Show, Update and Delete campgrounds.)
+  * Basic CRUD (Create, Show, Update and Delete campgrounds.)
 
   * Add Reviews to campgrounds.
 
